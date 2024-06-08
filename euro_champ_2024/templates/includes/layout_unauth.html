@@ -1,0 +1,33 @@
+{% extends "includes/layout_base.html" %}
+
+{% block title %}{% block head_title %}{% endblock %}{% endblock %}
+
+{% block head %}{% block extra_head %}{% endblock %}{% endblock %}
+
+{% block main %}
+		<div class="site-container">
+			<div class="container">
+				<div class="p-4 mb-3 bg-light rounded-3">
+				{% block body %}
+
+				{% if messages %}
+				<div>
+					<strong>Сообщения:</strong>
+					<ul>
+					{% for message in messages %}
+					<li>{{message}}</li>
+					{% endfor %}
+					</ul>
+				</div>
+				{% endif %}
+
+				{% block content %}
+				{% endblock %}
+				{% endblock %}
+				{% block extra_body %}
+				{% endblock %}
+					<br/>
+				</div>
+			</div>
+		</div>
+{% endblock %}

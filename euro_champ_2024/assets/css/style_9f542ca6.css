@@ -1,0 +1,173 @@
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 200px;
+}
+
+.icon-success {
+	color: #5CB85C;
+}
+
+.icon-error {
+	color: #FF0000;
+}
+
+.icon-not-checked {
+	color: #000000;
+}
+
+.icon-not-fully-checked {
+	color: #E0E000;
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+legend {
+    width: auto;
+    border: 0;
+    padding: 0
+}
+
+a.mysocial:visited {
+    color: #FFFFFF;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border: 1px solid #cbcbcb;
+}
+
+.col_command {
+	min-width: 163px; /* Ширина блока */
+	word-wrap: break-word; /* Перенос слов */
+}
+
+@media (max-device-width: 800px) {
+	.col_command {
+		min-width: 110px;
+		word-wrap: break-word; /* Перенос слов */
+	}
+}
+
+.table {
+ 	table-layout: auto;
+    width:100% 
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb
+}
+
+.table caption {
+    color: #000;
+    font: italic 85%/1 arial, sans-serif;
+    padding: 1em 0;
+    text-align: center
+}
+
+#after {
+  position: relative;
+  white-space: pre-line;
+}
+#after input, #after label {
+  display: inline-block;
+  vertical-align: middle;
+}
+#after input {
+  margin-left: 90px;
+  padding: .6em .3em .6em 2em;
+}
+#after input + label:before {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+}
+
+.table td,
+.table th {
+    word-wrap: break-word; 
+    border-left: 1px solid #cbcbcb;
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: .5em 1em
+}
+.table td:first-child,
+.table th:first-child {
+    border-left-width: 0
+}
+.table thead {
+    background-color: #e0e0e0;
+    color: #000;
+    text-align: left;
+    vertical-align: middle
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  vertical-align: middle;
+}
+
+.table td {
+    background-color: transparent
+}
+
+.table-bordered td {
+    border-bottom: 1px solid #cbcbcb
+}
+.table-bordered tbody>tr:last-child>td {
+    border-bottom-width: 0
+}
+
+.accordion {
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.accordion-button:not(.collapsed) {
+  color: var(--bs-accordion-active-color);
+  background-color: rgba(var(--bs-light-rgb));
+}
+.accordion-button {
+  color: var(--bs-accordion-active-color);
+  background-color: rgba(var(--bs-light-rgb));
+}
+.accordion-button:focus {
+  box-shadow: inherit;
+}
+
+@media (max-width:768px) {
+  input::placeholder {
+    color: transparent;
+  }
+}
+
+@font-face {
+  font-family: 'Kurale-Regular';
+  src: url('../fonts/Kurale-Regular.ttf')  format("truetype"),
+       local('Kurale-Regular');
+}
+
+h1,h2,h3 {
+    font-family: Kurale-Regular
+}
+
+.coin_icon {
+	height: 1.5em;
+	width: 1.5em;
+}
+.flag_icon {
+	height: 1.5em;
+	width: 1.5em;
+}

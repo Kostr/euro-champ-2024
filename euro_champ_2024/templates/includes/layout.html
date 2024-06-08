@@ -1,0 +1,17 @@
+{% extends "includes/layout_base.html" %}
+{% block main %}
+		<div class="site-container">
+			{% load tz %}
+			{% timezone "Europe/Moscow" %}
+				{% block navbar %}{% endblock %}
+				<div class="container">
+					<div class="main_container">
+						{% block h1 %}{% endblock %}
+						<hr/>
+						{% block content %}{% endblock %}
+					</div>
+					<br/>
+				</div>
+			{% endtimezone %}
+		</div>
+{% endblock %}
