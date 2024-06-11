@@ -157,6 +157,7 @@ a.mysocial:visited {
   font-family: 'UEFAEuro-2024-Medium';
   src: url('../fonts/UEFAEuro-2024-Medium.ttf')  format("truetype"),
        local('UEFAEuro-2024-Medium');
+  ascent-override: 135%;
 }
 
 h1,h2,h3 {
