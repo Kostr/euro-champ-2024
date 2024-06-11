@@ -17,4 +17,5 @@ python euro_champ_2024/manage.py makemessages -l ru --symlinks
 python euro_champ_2024/manage.py compilemessages -l ru
 python euro_champ_2024/manage.py collectstatic --no-input
 python euro_champ_2024/manage.py showmigrations
+python euro_champ_2024/manage.py makemigrations
 python euro_champ_2024/manage.py migrate
