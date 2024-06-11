@@ -154,13 +154,13 @@ a.mysocial:visited {
 }
 
 @font-face {
-  font-family: 'Kurale-Regular';
-  src: url('../fonts/Kurale-Regular.ttf')  format("truetype"),
-       local('Kurale-Regular');
+  font-family: 'UEFAEuro-2024-Medium';
+  src: url('../fonts/UEFAEuro-2024-Medium.ttf')  format("truetype"),
+       local('UEFAEuro-2024-Medium');
 }
 
 h1,h2,h3 {
-    font-family: Kurale-Regular
+    font-family: UEFAEuro-2024-Medium
 }
 
 .coin_icon {
