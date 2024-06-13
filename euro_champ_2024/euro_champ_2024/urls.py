@@ -24,6 +24,7 @@ urlpatterns = [
     re_path(r'^', include('gambling.urls', namespace='gambling')),
     re_path(r'^logout/$', views.logout_page),
     re_path(r'^$', views.start_page, name='home'),
+    re_path(r'^world2022/$', views.world2022, name='world2022'),
     re_path(r'^euro2020/$', views.euro2020, name='euro2020'),
     re_path(r'^world2018/$', views.world2018, name='world2018'),
     re_path(r'^euro2016/$', views.euro2016, name='euro2016'),
